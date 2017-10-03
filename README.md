@@ -1,4 +1,4 @@
-# About This Repository.
+# About This Repository
 This repository contains C++ and Python implementations of [Guess & Check (GC) codes](https://arxiv.org/abs/1705.09569). The GC codes were first implemented using Python, which is easy to code, but slow. The codes were later implemented using C++, in an attempt to optimize the decoding performance. However, this is not a fully completed work. All we did was to translate what we had in Python to C++. We believe there is still a lot of room for optimization because of C++'s control over lower levels of computers' resources. Below are some of areas can be optimized:
 1. The use of variables (try to reuse or maintain often used variable, don't make uneccessary copies when passing them to other fucnitons.)
 2. NTL's Multithreading: NTL has its own multithreading library to speed up some matrix calculations.
@@ -34,5 +34,5 @@ All of these settings are for your IDE to be able to compile NTL library.
 3. Add additional compiling flags to your compiler setting: `-g` `-O2`.
 4. Change your default C++ compiler to `g++` (if it is not already in used). Check this folder `/usr/bin/g++` (although it could be at somewhere else depending on the Unix package manager you use.)
 
-## Warning to Windows Users.
+## Warning to Windows Users
 We did not verify if the code (as is) compiles using Visual Studio's complier (MSVC). If you are testing these codes in a Windows machine, make sure you use g++ to compile this project. MinGW and Cygwin are the two tools that could help you to get the g++ compiler and Unix like Terminal.
