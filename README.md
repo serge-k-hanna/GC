@@ -35,4 +35,4 @@ All of these settings are for your IDE to be able to compile NTL library.
 4. Change your default C++ compiler to `g++` (if it is not already in used). Check this folder `/usr/bin/g++` (although it could be at somewhere else depending on the Unix package manager you use.)
 
 ## Warning to Windows Users
-We did not verify if the code (as is) compiles using Visual Studio's complier (MSVC). If you are testing these codes in a Windows machine, make sure you use g++ to compile this project. MinGW and Cygwin are the two tools that could help you to get the g++ compiler and Unix like Terminal.
+We did not verify if the C++ code (as is) compiles using Visual Studio's complier (MSVC). If you are testing these codes in a Windows machine, make sure you use g++ to compile this project. MinGW and Cygwin are the two tools that could help you to get the g++ compiler and Unix like Terminal.
