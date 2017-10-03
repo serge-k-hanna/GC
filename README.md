@@ -6,7 +6,7 @@ This repository contains C++ and Python implementations of [Guess & Check (GC) c
 
 The implementations in this repository were done by Hieu Nguyen, who was an intern in the [CSI Lab](http://eceweb1.rutgers.edu/csi/CSILab.html) during Summer 2017.
 # Guess & Check Codes
-This project was based on the Guess &amp; Check Algorithms (GC) by Dr. Salim El Rouayheb and Serge Kashanna. The goal of this project was to simulate and optimize the decoding process to recover one or multiple deletions using GC algorithms (please help me on the section, Serge).
+This project is based on the [Guess & Check (GC) codes](https://arxiv.org/abs/1705.09569), introduced by [Serge Kas Hanna](http://www.eden.rutgers.edu/~sk1976/) and [Salim El Rouayheb](http://eceweb1.rutgers.edu/csi/). GC codes are binary codes that can correct multiple deletions (or insertions) with high probability. The codes have a redundancy that is logarithmic in the length of the information message. GC codes have deterministic and polynomial time encoding and decoding schemes. The decoding may fail in some cases, but the probability of failure is proven to be low (asymptotically vanishing) in theory and practice. For instance, one of the simulations shows that a GC code with rate 0.8 can correct up to 4 deletions in a message of 1024 bits with no decoding failure detected within 10000 runs of simulations.
 # Installation Guide
 ## Requirements
 1. [Number Theory Library (NTL)](http://www.shoup.net/ntl/) by Victor Shoup: You must install this library to your machine and correctly add the include path to its header files.
