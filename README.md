@@ -3,6 +3,7 @@ This repository contains C++ and Python implementations of [Guess & Check (GC) c
 1. The use of variables (try to reuse or maintain often used variable, don't make uneccessary copies when passing them to other fucnitons.)
 2. NTL's Multithreading: NTL has its own multithreading library to speed up some matrix calculations.
 3. Levenshtein Distance check (to minimize failure probability): this is available only in the Python implementation.
+
 The implementations in this repository were done by Hieu Nguyen, who was an intern in the [CSI Lab](http://eceweb1.rutgers.edu/csi/CSILab.html) during Summer 2017.
 # Guess & Check Codes
 This project was based upon the Guess &amp; Check Algorithms (GC) by Dr. Salim El Rouayheb and Serge Kashanna. The goal of this project was to simulate and optimize the decoding process to recover one or multiple deletions using GC algorithms (please help me on the section, Serge).
