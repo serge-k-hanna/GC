@@ -1,9 +1,10 @@
-# About This Simulation.
-This is one of two implimentations that we wrote to simulate Guess & Check Algorithms. The other one was writen in Python (https://github.com/HieuNguyen202/GC), which is easy to code, but slow. In an attemp to optimize decoding speed using G & C algorithms, this implimentation was born. However, this is not a fully completed work. All we did was to translate what we had in Python to C++. We believe there is still a lot of room for optimization because of the C++'s control over lower level of computer's resources. Below are some of areas can be optimized:
-1. The use of variables (try to reuse or maintain often used variable. don't make uneccessary copies when passing them to other fucnitons.)
+# About This Repository.
+This repository contains C++ and Python implementations of [Guess & Check (GC) codes](https://arxiv.org/abs/1705.09569). The GC codes were first implemented using Python, which is easy to code, but slow. The codes were later implemented using C++, in an attempt to optimize the decoding performance. However, this is not a fully completed work. All we did was to translate what we had in Python to C++. We believe there is still a lot of room for optimization because of the C++'s control over lower levels of computers' resources. Below are some of areas can be optimized:
+1. The use of variables (try to reuse or maintain often used variable, don't make uneccessary copies when passing them to other fucnitons.)
 2. NTL's Multithreading: NTL has its own multithreading library to speed up some matrix calculations.
-3. Levanshtein Distance check (to minimized failure probability with an unnoticeable increase in run time): this is available in the Python implimentation.
-# Guess and Check Algorithms 
+3. Levenshtein Distance check (to minimize failure probability): this is available only in the Python implementation.
+The implementations in this repository were done by Hieu Nguyen, who was an intern in the [CSI Lab](http://eceweb1.rutgers.edu/csi/CSILab.html) during Summer 2017.
+# Guess & Check Codes
 This project was based upon the Guess &amp; Check Algorithms (GC) by Dr. Salim El Rouayheb and Serge Kashanna. The goal of this project was to simulate and optimize the decoding process to recover one or multiple deletions using GC algorithms (please help me on the section, Serge).
 # Installation Guide
 ## Requirements
